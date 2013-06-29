@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.12/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'owner',
+1 verbose cli   'ls',
+1 verbose cli   'dispatcher.io-growl' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose url raw dispatcher.io-growl
+5 verbose url resolving [ 'https://registry.npmjs.org/', './dispatcher.io-growl' ]
+6 verbose url resolved https://registry.npmjs.org/dispatcher.io-growl
+7 info trying registry request attempt 1 at 00:55:49
+8 http GET https://registry.npmjs.org/dispatcher.io-growl
+9 http 404 https://registry.npmjs.org/dispatcher.io-growl
+10 silly registry.get cb [ 404,
+10 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+10 silly registry.get     date: 'Sat, 29 Jun 2013 23:55:54 GMT',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     'content-length': '52',
+10 silly registry.get     'cache-control': 'must-revalidate' } ]
+11 error owner ls Couldn't get owner data dispatcher.io-growl
+12 error 404 'dispatcher.io-growl' is not in the npm registry.
+12 error 404 You should bug the author to publish it
+12 error 404
+12 error 404 Note that you can also install from a
+12 error 404 tarball, folder, or http url, or git url.
+13 error System Darwin 12.4.1
+14 error command "/usr/local/Cellar/node/0.10.12/bin/node" "/usr/local/bin/npm" "owner" "ls" "dispatcher.io-growl"
+15 error cwd /Users/leostera/Repositories/dispatcher.io-growl
+16 error node -v v0.10.12
+17 error npm -v 1.2.32
+18 error code E404
+19 verbose exit [ 1, true ]
