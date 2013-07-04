@@ -1,24 +1,24 @@
 {
-  "name": "dispatcher.io-growl",
+  "name": "transporter.io-growl",
   "version": "0.0.0",
-  "description": "Growl transport for dispatcher.io",
+  "description": "Growl transport for transporter.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leostera/dispatcher.io-growl"
+    "url": "https://github.com/leostera/transporter.io-growl"
   },
   "keywords": [
-    "dispatcher.io",
+    "transporter.io",
     "transport",
     "growl"
   ],
   "author": "Leandro Ostera <sayhi@leostera.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leostera/dispatcher.io-growl/issues"
+    "url": "https://github.com/leostera/transporter.io-growl/issues"
   },
   "dependencies": {
     "growl": "~1.7.0"
